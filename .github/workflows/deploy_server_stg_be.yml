@@ -46,6 +46,7 @@ jobs:
         run: |
           cd aspnet-core/src/TalentV2.Web.Host/bin/Debug/net6.0/publish/
           rm -rf appsettings.json
+          rm -rf appsettings.Staging.json
           cp -r * /var/www/app_git/talent/stg-dotnet-host-talent/
     
           
