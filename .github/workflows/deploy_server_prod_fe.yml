@@ -70,7 +70,7 @@ jobs:
     - name: Restart Nginx
       run: |
         cd angular/
-        cp appconfig.production.json /var/www/app_git/talentv2/prod-fe-talent/
+        cp appconfig.production.json /var/www/app_git/talentv2/prod-fe-talent/assets/
         sudo service nginx reload
         
         
